@@ -3,6 +3,7 @@ from logging import Logger
 from shutil import which
 from subprocess import PIPE, Popen
 from tempfile import NamedTemporaryFile
+import re
 
 
 class HeadlessChromeDriver(object):
