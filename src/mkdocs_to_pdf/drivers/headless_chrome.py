@@ -1,9 +1,12 @@
 import os
+import html as html_lib
 from logging import Logger
 from shutil import which
 from subprocess import PIPE, Popen
 from tempfile import NamedTemporaryFile
 import re
+import tempfile
+import time
 
 
 class HeadlessChromeDriver(object):
